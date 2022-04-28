@@ -1,0 +1,15 @@
+.produto__detalhes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.produto__preco{
+    font-weight: bold;
+    padding:5px 5px 5px 0px;
+}
+.produto__link{
+    font-size: 15px;
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}

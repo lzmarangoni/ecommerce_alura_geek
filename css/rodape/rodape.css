@@ -1,0 +1,11 @@
+.rodape{
+    background: url(../../img/bg.jpg);
+    text-align: center;
+    color:#EAF2FD;
+    padding: 80px;
+}
+.logo__alurageek--rodape{
+    justify-content: center;
+    margin: 20px auto;
+}
+

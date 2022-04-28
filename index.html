@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="widht=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../challenge_alurageek/css/reset.css">
-        <link rel="stylesheet" href="../challenge_alurageek/css/style.css">
+        <link rel="stylesheet" href="../challenge_alurageek/css/body.css">
         <link rel="stylesheet" href="./css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="./css/cabecalho/logo-alurageek/logo-alurageek.css">
         <link rel="stylesheet" href="./css/cabecalho/buscador/buscador.css">
@@ -14,6 +14,14 @@
         <link rel="stylesheet" href="./css/banner/banner-texto.css">
         <link rel="stylesheet" href="./css/banner/banner-botao.css">
         <link rel="stylesheet" href="./css/produtos/produtos.css">
+        <link rel="stylesheet" href="./css/produtos/produtos-categoria.css">
+        <link rel="stylesheet" href="./css/produtos/produtos-vitrine.css">
+        <link rel="stylesheet" href="./css/produtos/produto-detalhes.css">
+        <link rel="stylesheet" href="./css/formulario/formulario-container.css">
+        <link rel="stylesheet" href="./css/formulario/formulario-completo.css">
+        <link rel="stylesheet" href="./css/formulario/links-menu/link-item.css">
+        <link rel="stylesheet" href="./css/formulario/faleConosco.css">
+        <link rel="stylesheet" href="./css/rodape/rodape.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
         <title>Home -Alura Geek</title>
@@ -37,163 +45,165 @@
                 <button class="banner__botao" href="">Ver consoles</button>
         </div>
         <main class="produtos">
-            <div class="produtos-categoria"> 
-                <h2>Star Wars</h2>
-                <a href="">Ver tudo</a>
+            <div class="produtos__categoria"> 
+                <h2 class="produtos__categoria--nome">Star Wars</h2>
+                <a class="produtos__categoria--link" href="">Ver tudo</a>
             </div>
             <div class="produtos__vitrine">
                 <ul class="produto__detalhes">
-                    <li><img src="./img/caneca_storm.png"></li>
-                    <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__imagem"><img src="./img/caneca_storm.png"></li>
+                    <li class="produto__nome">Produto xyz</li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/luminaria_darth_vader.png"></li>
+                    <li class="produto__imagem"><img src="./img/luminaria_darth_vader.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/yoda.png"></li>
+                    <li class="produto__imagem"><img src="./img/yoda.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/storm.png"></li>
+                    <li class="produto__imagem"><img src="./img/storm.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/baby_yoda.png"></li>
+                    <li class="produto__imagem"><img src="./img/baby_yoda.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/new_darth.png"></li>
+                    <li class="produto__imagem"><img src="./img/new_darth.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
             </div>
-            <div class="produtos-categoria"> 
-                <h2>Consoles</h2>
-                <a href="">Ver tudo</a>
+            <div class="produtos__categoria"> 
+                <h2 class="produtos__categoria--nome">Consoles</h2>
+                <a class="produtos__categoria--link" href="">Ver tudo</a>
             </div>
             <div class="produtos__vitrine">
                 <ul class="produto__detalhes">
-                    <li><img src="./img/controle.png"></li>
+                    <li class="produto__imagem"><img src="./img/controle.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/console.png"></li>
+                    <li class="produto__imagem"><img src="./img/console.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/portatil.png"></li>
+                    <li class="produto__imagem"><img src="./img/portatil.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/console2.png"></li>
+                    <li class="produto__imagem"><img src="./img/console2.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul class="produto__detalhes">
                 <ul>
-                    <li><img src="./img/portatil2.png"></li>
+                    <li class="produto__imagem"><img src="./img/portatil2.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/console3.png"></li>
+                    <li class="produto__imagem"><img src="./img/console3.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
             </div>
-            <div class="produtos-categoria"> 
-                <h2>Camisetas</h2>
-                <a href="">Ver tudo</a>
+            <div class="produtos__categoria"> 
+                <h2 class="produtos__categoria--nome">Camisetas</h2>
+                <a class="produtos__categoria--link" href="">Ver tudo</a>
             </div>
             <div class="produtos__vitrine">
                 <ul class="produto__detalhes">
-                    <li><img src="./img/camiseta.png"></li>
+                    <li class="produto__imagem"><img src="./img/camiseta.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/camiseta2.png"></li>
+                    <li class="produto__imagem"><img src="./img/camiseta2.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/retro.png"></li>
+                    <li class="produto__imagem"><img src="./img/retro.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/camiseta3.png"></li>
+                    <li class="produto__imagem"><img src="./img/camiseta3.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/camiseta4.png"></li>
+                    <li class="produto__imagem"><img src="./img/camiseta4.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
                 <ul class="produto__detalhes">
-                    <li><img src="./img/camiseta5.png"></li>
+                    <li class="produto__imagem"><img src="./img/camiseta5.png"></li>
                     <li>Produto xyz</li>
-                    <li class="preco">R$ 60,00</li>
-                    <li><a href="">Ver produto</a></li>
+                    <li class="produto__preco">R$ 60,00</li>
+                    <li><a class="produto__link" href="">Ver produto</a></li>
                 </ul>
             </div>
         </main>
-        <div class="form-container">
-            <div class="formulario-completo">
-                <div class="logo_alura_geek">
-                    <img id="controle" src="./img/controle_logo.png">
-                    <img src="./img/alura_logo.png">
-                    <img src="./img/geek_logo.png">
+        <div class="formulario__container">
+            <div class="formulario__completo">
+                <div class="logo__alurageek">
+                    <img class="logo__controle" src="./img/controle_logo.png">
+                    <img class="logo__nome--alura" src="./img/alura_logo.png">
+                    <img class="logo__nome--geek"src="./img/geek_logo.png">
                 </div>
-                <ul>
-                    <li>Quem somos</li>
-                    <li>Política de privacidade</li>
-                    <li>Programa fidelidade</li>
-                    <li>Nossas lojas</li>
-                    <li>Quero ser franqueado</li>
-                    <li>Anuncie aqui</li>
-                </ul>
-                <form class="formulario">
-                    <h2>Fale conosco</h2>
-                    <div class="inputs">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" placeholder="Qual o seu nome?">
-                        <label for="e-mail">E-mail</label>
-                        <input type="email" id="e-mail" placeholder="nome@exemplo.com">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem"></textarea>
-                        <input type="submit" value="Enviar mensagem">
+                <div class="links">
+                    <ul class="links__menu" >
+                        <li class="link__item">Quem somos</li>
+                        <li class="link__item">Política de privacidade</li>
+                        <li class="link__item">Programa fidelidade</li>
+                        <li class="link__item">Nossas lojas</li>
+                        <li class="link__item">Quero ser franqueado</li>
+                        <li class="link__item">Anuncie aqui</li>
+                    </ul>
+                </div>    
+                <form class="faleConosco">
+                    <h2 class="faleConosco__titulo">Fale conosco</h2>
+                    <div class="faleConosco__formulario">
+                        <label class="faleConosco__label"for="nome">Nome</label>
+                        <input class="faleConosco__inputs" type="text" id="nome" placeholder="Qual o seu nome?">
+                        <label class="faleConosco__label" for="e-mail">E-mail</label>
+                        <input class="faleConosco__inputs" type="email" id="e-mail" placeholder="nome@exemplo.com">
+                        <label class="faleConosco__label" for="mensagem">Mensagem</label>
+                        <textarea class="faleConosco__textarea"id="mensagem"></textarea>
+                        <input class="faleConosco__botao"type="submit" value="Enviar mensagem">
                     </div>
                 </form>
             </div>
         </div>
-        <footer>
+        <footer class="rodape">
             <div class="logo__alurageek logo__alurageek--rodape">
                 <img id="controle" src="./img/controle_logo.png">
                 <img src="./img/alura_logo.png">
@@ -203,4 +213,3 @@
         </footer>
     </body>
 </html>
-

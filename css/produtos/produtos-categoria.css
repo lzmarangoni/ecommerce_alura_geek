@@ -1,0 +1,19 @@
+.produtos__categoria{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 120px 10px 120px;
+    font-weight: bold;
+}
+
+.produtos__categoria--nome{
+    font-size: 28px ;
+
+}
+
+.produtos__categoria--link{
+    font-size: 15px;
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: bold;
+}

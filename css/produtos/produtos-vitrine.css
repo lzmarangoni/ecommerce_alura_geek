@@ -1,0 +1,6 @@
+.produtos__vitrine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 0px 120px;
+}
