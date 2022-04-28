@@ -1,0 +1,15 @@
+.banner__botao{
+    
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    margin-left: 150px;
+    padding: 10px 30px;
+    transition: 1s all;
+    width: 150px;
+}
+
+.banner__botao:hover{
+    background-color: red;
+    transform: scale(1.2);
+}

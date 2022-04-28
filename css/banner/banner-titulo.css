@@ -1,0 +1,7 @@
+.banner__titulo{
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 50px 0px 10px 150px;
+    text-shadow: 0 3px 2px black;
+}

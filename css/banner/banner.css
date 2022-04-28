@@ -1,0 +1,10 @@
+.banner{
+    background-image: url(../../img/homem-aranha.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: center;
+    margin: 40px auto;
+};
+

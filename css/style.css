@@ -11,44 +11,10 @@ body{
 
 
 
-.banner {
-    height: 430px;
-    margin: 40px auto;
-    background-image: url(../img/homem-aranha.jpg);
-    background-size: cover;
-}
 
-.banner h1, .banner p{
-    margin: 20px auto;
-    position: relative;
-    top: 240px;
-    color: white;
-    text-shadow: 20px blur black;
-    font-weight: bold;
-}
 
-.banner h1{
-    font-size: 52px;
-}
 
-.banner p{
-    font-size: 22px;
-}
 
-.banner button{
-    position: relative;
-    top: 250px;
-    left: 290px;
-    padding: 15px 30px;
-    background-color: #2A7AE4;
-    color: white;
-    border: none;
-}
-
-.produtos {
-    margin: 40px auto;   
-   
-}
 
 .produtos-categoria{
     display: flex;
