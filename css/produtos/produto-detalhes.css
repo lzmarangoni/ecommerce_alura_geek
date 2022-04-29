@@ -18,7 +18,7 @@
     .produto__detalhes{
         align-items: center;
         width: 40%;
-        justify-content: space-around;
+        justify-content: space-around; 
         margin: 2%;
     }
 }
