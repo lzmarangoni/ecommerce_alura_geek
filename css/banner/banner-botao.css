@@ -13,3 +13,10 @@
     background-color: red;
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 460px) {
+    .banner__botao{
+        margin-bottom: 20px;
+    }
+    
+}
