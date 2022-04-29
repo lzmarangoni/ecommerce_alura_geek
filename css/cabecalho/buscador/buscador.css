@@ -12,3 +12,12 @@
     top:5px;
     right:40px;
 }
+@media screen and (max-width: 460px) {
+    .buscador__input{
+        display: none;
+    }
+    .buscador__lupa{
+        position: static;
+        justify-content: flex-end;
+    }
+}

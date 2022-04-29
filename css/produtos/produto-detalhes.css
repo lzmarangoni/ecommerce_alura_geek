@@ -13,3 +13,12 @@
     color: #2A7AE4;
     font-weight: bold;
 }
+
+@media screen and (max-width: 460px) {
+    .produto__detalhes{
+        align-items: center;
+        width: 40%;
+        justify-content: space-around;
+        margin: 2%;
+    }
+}

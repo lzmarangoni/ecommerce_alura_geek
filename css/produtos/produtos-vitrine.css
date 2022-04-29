@@ -4,3 +4,11 @@
     justify-content: space-around; 
     margin: 0px 120px;
 }
+
+@media screen and (max-width: 460px){
+    .produtos__vitrine {
+        margin: 0px 20px;
+        justify-content: space-between;
+    }
+    
+}

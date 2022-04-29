@@ -5,3 +5,10 @@
     margin: 50px 0px 10px 120px;
     text-shadow: 0 3px 2px black;
 }
+
+@media screen and (max-width: 468px) {
+    .banner__titulo {
+        margin: 0px 50px;
+        text-align: center;
+    }
+}

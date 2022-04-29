@@ -8,3 +8,11 @@
     margin: 40px auto;
 };
 
+@media screen and (max-width: 468px) {
+    .banner {
+        margin: 0px;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+}
