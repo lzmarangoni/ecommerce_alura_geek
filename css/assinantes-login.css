@@ -1,0 +1,37 @@
+.assinantes__login{
+    align-items: center;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto; 
+    padding: 100px;
+}
+
+.assinantes__usuario{
+    width: 350px;
+    margin-bottom: 20px;
+    border: solid 1px gray;
+    border-radius: 15px;    
+}
+
+.assinantes__label{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botao__entrar{
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px;
+    transition: 1s all;
+    width: 300px;  
+}
+
+.botao__entrar:hover{ 
+    background-color: red;
+    transform: scale(1.2);
+}

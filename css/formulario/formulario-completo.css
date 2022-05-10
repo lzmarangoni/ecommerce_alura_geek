@@ -4,6 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 40px 120px 0px 120px;
-    padding: 40px 0px;
+    margin: 0px 120px;
+    padding: 80px 0px;
 }
