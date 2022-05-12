@@ -3,4 +3,10 @@
     padding: 10px 50px;
     color: #2A7AE4;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.botao__login a {
+    color: #2A7AE4;;
+    text-decoration: none;
 }

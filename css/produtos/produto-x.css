@@ -1,6 +1,15 @@
+
 .produto__x{
     background: #E5E5E5;  
-    margin: 40px auto;   
-       
+    padding: 40px auto;     
+}
+.produto__principal{
+    display: flex;
     
 }
+
+.produto__principal--img{
+    width: 40%;
+    padding: 60px 120px;
+}
+
