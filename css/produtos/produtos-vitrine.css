@@ -1,8 +1,9 @@
 .produtos__vitrine{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-between; 
     margin: 0px 120px;
+    padding: 40px auto;
 }
 
 @media screen and (max-width: 460px){
